@@ -1,4 +1,14 @@
+html, body {
+    height: 100%;
+    background-color:#bde0fe;
+}
+
 .container-lg {
-    flex: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: auto;
+    max-height: 25%;
+    padding: 10%;
+
 }
