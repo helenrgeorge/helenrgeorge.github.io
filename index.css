@@ -1,6 +1,6 @@
-html, body {
-    height: 100%;
-    background-color:#bde0fe;
+
+html,body {
+  height: 100%;
 }
 
 .container-lg {
@@ -8,19 +8,59 @@ html, body {
     flex-direction: column;
     text-align: center;
     margin: auto;
-    max-height: 25%;
-    max-width: 80%;
     padding: 10%;
+    
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#fixedimage {
+  font-family: sans-serif;
+  font-size: large;
+  color: #ffffff;
+  height: 100%;
 }
 
 .children {
     justify-content: space-between;
 }
 
-.navbar-custom {
-    background-color: #bde0fe;
-}
+
 
  button {
     
  }
+
+}
+
+
+  
+  .wrapper {
+    height: 100%;
+  }
+  
+  .fixed-bg {
+    height: 100%; 
+  }
+
+  .fixed-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  /* first section */
+  
+  .bg-1 {
+    background-image: url('homepagepic.png');
+    
+  }
+  
+  #welcomebox {
+    background-color: #ffffff;
+    max-width: 80%;
+
+
+  }

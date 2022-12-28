@@ -1,9 +1,16 @@
-document.getElementById("1stbox").style.display = "none";  
-document.getElementById("2ndbox").style.display = "none";  
-document.getElementById("3rdbox").style.display = "none";  
+document.getElementById("1stbox").style.visibility = "hidden";  
+document.getElementById("2ndbox").style.visibility = "hidden";  
+document.getElementById("3rdbox").style.visibility = "hidden";  
 
-learnmore.addEventListener("click", function() {
-    var div = document.createElement('div')
-    div.setAttribute('class', 'children');
-    div.innerHTML = document.getElementById('1stbox').innerHTML;
-  });
+const btn = document.getElementById('learnmore')
+const btn2 = document.getElementById('contactme')
+
+learnmore.addEventListener('click', function onClick(event) {
+  // 👇️ change background color
+  document.getElementById("1stbox").style.visibility = "visible";});
+  
+  addEventListener('webkitmouseforcechanged', (event) => {});
+
+onwebkitmouseforcechanged = (event) => {
+    document.getElementById("2ndbox").style.visibility = "visible";  
+ };
