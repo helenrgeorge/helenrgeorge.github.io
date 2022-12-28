@@ -9,6 +9,18 @@ html, body {
     text-align: center;
     margin: auto;
     max-height: 25%;
+    max-width: 80%;
     padding: 10%;
+}
 
+.children {
+    justify-content: space-between;
+}
+
+.navbar-custom {
+    background-color: #bde0fe;
+}
+
+.navbar-toggler-icon {
+    background-image: url("file:///Users/hegeorge/Documents/GitHub/helenrgeorge.github.io/menu%20icon.png");
 }
